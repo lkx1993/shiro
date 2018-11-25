@@ -21,10 +21,11 @@ package org.apache.shiro.cache;
 /**
  * Interface implemented by components that utilize a CacheManager and wish that CacheManager to be supplied if
  * one is available.
- *
+ *由利用CacheManager并希望它提供实现的接口，如果
+ 一个是可用的。
  * <p>This is used so internal security components that use a CacheManager can be injected with it instead of having
  * to create one on their own.
- *
+ *这样就可以使用CacheManager注入内部安全组件，而不是使用自己创建一个。
  * @since 0.9
  */
 public interface CacheManagerAware {

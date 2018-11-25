@@ -23,11 +23,16 @@ import java.util.Set;
 
 /**
  * A Cache efficiently stores temporary objects primarily to improve an application's performance.
+ *缓存有效地存储临时对象主要是为了提高应用程序的性能。
  *
  * <p>Shiro doesn't implement a full Cache mechanism itself, since that is outside the core competency of a
  * Security framework.  Instead, this interface provides an abstraction (wrapper) API on top of an underlying
  * cache framework's cache instance (e.g. JCache, Ehcache, JCS, OSCache, JBossCache, TerraCotta, Coherence,
  * GigaSpaces, etc, etc), allowing a Shiro user to configure any cache mechanism they choose.
+ *Shiro本身没有实现完整的缓存机制，因为这超出了安全框架。
+ * 相反，这个接口提供了底层之上的抽象（包装）API
+ *缓存框架的缓存实例（例如，JCache、Ehcache、JCS、OSCache、JBossCache、TerraCotta、Coherence，
+ *千兆空间等），允许Shiro用户配置他们选择的任何缓存机制。
  *
  * @since 0.2
  */
